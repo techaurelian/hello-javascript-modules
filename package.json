@@ -1,0 +1,19 @@
+{
+  "name": "hello-javascript-modules",
+  "description": "Does your browser support JavaScript modules natively? Test your browser.",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "es-dev-server": "^1.57.2"
+  },
+  "scripts": {
+    "start": "es-dev-server --root-dir src --watch --open"
+  },
+  "browser": "src/scripts/app.js",
+  "repository": "github:techaurelian/hello-javascript-modules",
+  "keywords": [],
+  "author": "techaurelian (https://techaurelian.com)",
+  "license": "MIT",
+  "bugs": "https://github.com/techaurelian/hello-javascript-modules/issues",
+  "homepage": "https://techaurelian.com/hello-javascript-modules"
+}
