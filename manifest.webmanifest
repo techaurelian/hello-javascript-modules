@@ -1,0 +1,32 @@
+{
+  "background_color": "#4CAF50",
+  "categories": ["development", "devtools", "education", "productivity", "utilities"],
+  "description": "Does your browser support JavaScript modules natively? Test your browser.",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/icons/hello-javascript-modules-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/hello-javascript-modules-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en-US",
+  "name": "Hello JavaScript Modules",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "screenshots": [],
+  "short_name": "Hello Modules",
+  "shortcuts": [],
+  "start_url": "/",
+  "theme_color": "white"
+}

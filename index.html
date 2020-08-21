@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello JavaScript Modules</title>
+  <meta name="description" content="Does your browser support JavaScript modules natively? Test your browser.">
+
+  <link rel="stylesheet" href="/styles/modern-normalize.css">
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#CCCCCC">
+  <link rel="apple-touch-icon" href="/images/icons/hello-javascript-modules-apple-touch-icon.png">
+</head>
+
+<body>
+  <main class="screen">
+    <p id="emoji" class="emoji">😢</p>
+    <p id="before-lead" class="before-lead">Oh My God! Your browser</p>
+    <p id="lead" class="lead">doesn't support</p>
+    <p id="after-lead" class="after-lead">JavaScript!</p>
+  </main>
+
+  <footer class="footer">
+    <p><a href="https://techaurelian.com" target="_blank" rel="noopener">techaurelian</a></p>
+  </footer>
+
+  <script type="module" src="/scripts/app.js"></script>
+  <script nomodule src="/scripts/classic.js"></script>
+  <!-- <script src="/scripts/classic.js"></script> -->
+
+  <script>
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</body>
+
+</html>
