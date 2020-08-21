@@ -51,6 +51,7 @@ p {
   justify-content: center;
   padding: 0 2rem;
   text-align: center;
+  user-select: none;
 }
 
 .body--no-modules {
@@ -81,6 +82,7 @@ p {
 
 .footer {
   font-size: 50%;
+  margin-bottom: 1rem;
   text-align: center;
 }
 

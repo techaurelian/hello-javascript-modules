@@ -28,5 +28,5 @@
   "short_name": "Hello Modules",
   "shortcuts": [],
   "start_url": "/",
-  "theme_color": "white"
+  "theme_color": "#4CAF50"
 }
